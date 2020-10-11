@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header id="main-header">
+    Custom Task Manager
+    <div id="author">
+      Paul Burkov
+      <div class="avatar"></div>
+    </div>
+  </header>
+  <main id="tm-container">
+    <div class="tm-tasklist">
+      <header class="tm-tasklist-header">
+        В проработке
+      </header>
+      <div class="tm-tasklist-task">
+        <div class="tm-tasklist-task-text">
+          Приступить к курсовой работе по оптимизации
+        </div>
+        <div class="tm-tasklist-task-controls">
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon right-arrow-icon"></div>
+          </div>
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon edit-icon"></div>
+            <div class="tm-tasklist-task-controls-icon delete-icon"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tm-tasklist-task">
+        <div class="tm-tasklist-task-text">
+          Сделать ДЗ по Технологиям Интернет
+        </div>
+        <div class="tm-tasklist-task-controls">
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon right-arrow-icon"></div>
+          </div>
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon edit-icon"></div>
+            <div class="tm-tasklist-task-controls-icon delete-icon"></div>
+          </div>
+        </div>
+      </div>
+      <footer class="tm-tasklist-add-task">
+        Добавить карточку
+      </footer>
+    </div>
+    <div class="tm-tasklist">
+      <header class="tm-tasklist-header">
+        В работе
+      </header>
+      <div class="tm-tasklist-task">
+        <div class="tm-tasklist-task-text">
+          Сдать лабы по ЭВМ
+        </div>
+        <div class="tm-tasklist-task-controls">
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon left-arrow-icon"></div>
+            <div class="tm-tasklist-task-controls-icon right-arrow-icon"></div>
+          </div>
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon edit-icon"></div>
+            <div class="tm-tasklist-task-controls-icon delete-icon"></div>
+          </div>
+        </div>
+      </div>
+      <footer class="tm-tasklist-add-task">
+        Добавить карточку
+      </footer>
+    </div>
+    <div class="tm-tasklist">
+      <header class="tm-tasklist-header">
+        Проверка (личная)
+      </header>
+      <div class="tm-tasklist-task">
+        <div class="tm-tasklist-task-text">
+          Лабы у Т.М.
+        </div>
+        <div class="tm-tasklist-task-controls">
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon left-arrow-icon"></div>
+          </div>
+          <div class="tm-tasklist-task-controls-row">
+            <div class="tm-tasklist-task-controls-icon edit-icon"></div>
+            <div class="tm-tasklist-task-controls-icon delete-icon"></div>
+          </div>
+        </div>
+      </div>
+      <footer class="tm-tasklist-add-task">
+        Добавить карточку
+      </footer>
+    </div>
+    <div class="tm-tasklist">
+      <input
+        type="text"
+        id="tm-tasklist-add-list-input"
+        placeholder="Новый список"
+      />
+    </div>
+    <div class="tm-tasklist">
+      <header class="tm-tasklist-header">
+        Добавить список
+      </header>
+    </div>
+  </main>
+</body>
+</html>
